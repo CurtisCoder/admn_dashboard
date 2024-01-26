@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+	resize: both;
+  	overflow: auto;
+	background-color: orange;
+	font-family: "Poppins", sans-serif;
+  
+}
+
+
+/* Sidebar styling */
+
+.sidebar {
+	background-color: rgb(25,146,212);
+
+}
+
+
+.dashboard {	
+	font-weight: bold;
+	font-size: 3rem;
+	color: white;
+	margin: 30px;
+}
+
+.dash-links {
+	font-weight: bold;
+	font-size: 2rem;
+	color: white;
+	margin: 30px;
+}
+
+/* Header styling */
+
+.header {
+	background-color: white;
+	font-weight: bold;
+	font-size: 2rem;
+	padding: 30px;
+}
+
+.header img {
+	width: 30px;
+}
+
+.head2 {
+	margin-left: 150px;
+}
+
+.head2 img {	
+	margin-right: 30px;
+}
+
+.head2 p {
+	display: inline;
+
+}
+
+.head3 img {
+	width: 6rem;
+}
+
+.head4 {
+	display: inline-flex;
+}
+
+.little-me {
+	font-size: 1rem;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.bigger-me {	
+	padding-left: 20px;
+	
+}
+
+.search-field2 {
+	display: inline-flex;
+}
+
+.mag_glass {
+	width: 1rem;
+}
+
+input {
+	height: 40px;
+	width: 700px;
+	border-radius: 15px;
+	background-color: rgb(226,232,240);
+	border: none;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+
+button {
+	width: 150px;
+	padding: 15px;
+	margin: 20px;
+	color: white;
+	background-color: rgb(25,146,212);
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 1.25rem;
+	border: none;	
+	box-shadow: 5px 5px grey;
+}
+
+button:active {
+	color: rgb(25,146,212);
+	background-color: white;
+	
+}
+
+.btn {
+	display: inline;
+
+}
+
+.your-projects {
+	padding-top: 25px;
+	
+	background-color: rgb(226,232,240);
+	
+}
+
+.project2 {
+	text-align: left;
+	font-weight: bold;
+	font-size: 2rem;
+	margin-left: 215px;
+}
+
+.card {
+	width: 480px;
+	height: 230px;
+	padding: 20px;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: rgb(226,232,240);
+	border-left-color: rgb(250,204,21);
+	border-width: 0 0 0 15px;
+	background-color: white;
+	margin: 10px;
+	text-align: left;
+	position: relative;	
+}
+
+.card-body {
+	margin-bottom: 10px;
+}
+
+.card img {
+	width: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+
+.card2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+
+.card-heading {
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.dashboard2 {
+	background-image: url("images/dashboard.svg");
+	background-repeat: no-repeat;
+	background-size: 4rem;
+	padding-left: 100px;
+	
+}
+
+.home {
+	background-image: url("images/home.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;
+}
+
+.profile {
+	background-image: url("images/profile.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;
+}
+
+.messages {
+	background-image: url("images/messages.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;
+}
+
+.history {
+	background-image: url("images/history.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;	
+}
+
+.tasks {
+	background-image: url("images/tasks.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;
+}
+
+.communities {
+	background-image: url("images/communities.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;
+}
+
+.settings {
+	background-image: url("images/settings.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;
+}
+
+.support {
+	background-image: url("images/support.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;
+}
+
+.privacy {
+	background-image: url("images/privacy.svg");
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	background-position: left center;
+}
+
+.dashlists {
+	padding-left: 100px;
+	padding-top: 10px;
+
+}
+
+.trending img {
+	width: 30px;
+}
+
+/* Announcements */
+
+.announcements {
+	background-color: rgb(226,232,240);
+	padding-left: 20px;
+	
+	padding-bottom: 50px;
+	
+
+}
+.announcement-heading {
+	font-weight: bold;
+	font-size: 1.25rem;
+	
+}
+
+
+
+/* Trending */
+
+.name {
+	display: inline;
+	font-weight: bold;
+	align-items: center;
+	padding-left: 10px;
+}
+
+.name2 {
+	
+	padding-left: 45px;
+	margin-bottom: 20px;
+}
+
+.trending {
+
+	
+}
+
+.trending2 {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 2rem;
+	
+}
+
+.trending3 {
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	width: 500px;
+	margin-top: 15px;
+}
+
+.trending4 {
+	display: flex;
+}
+
+
+/* GRID LAYOUT */
+
+.container {
+	display: grid;
+	grid-template-columns: .75fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 2fr 1fr;
+	
+
+}
+
+.sidebar {
+	grid-row-start: 1;
+  	grid-row-end: 3;
+	
+}
+
+.header {
+	grid-column-start: 2;
+  	grid-column-end: 5;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.your-projects {	
+	grid-column-start: 2;
+  	grid-column-end: 4;
+	text-align: center;
+}
+
+.projects {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr; 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
